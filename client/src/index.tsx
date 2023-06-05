@@ -1,5 +1,19 @@
-const world = 'world';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import App from './App';
 
-export function hello(who: string = world): string {
-  return `Hello ${who}! `;
+function RouteHandler() {
+  return (
+    <React.StrictMode>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />}>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </React.StrictMode>
+  );
 }
+
+ReactDOM.createRoot(document.getElementById('app')!).render(<RouteHandler />);
