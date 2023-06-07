@@ -1,5 +1,5 @@
 import React from 'react';
-import test from './imgs/download.jpg';
+// import test from './imgs/download.jpg';
 function Home() {
     return (
         <section className='home' id='home'>
@@ -10,7 +10,7 @@ function Home() {
                        <h3>tetstststststs</h3>
                     </div>
                     <div className='col-2'>
-                        <img src={test} alt={'Test'}></img>
+                        <img src={require('./imgs/download.jpg').default} alt={'Test'}></img>
                     </div>
                 </div>
             </div>
