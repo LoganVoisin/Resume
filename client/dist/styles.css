@@ -1,0 +1,45 @@
+:root {
+  background-color: rgb(15, 15, 26);
+}
+
+#header {
+  justify-content: right;
+}
+
+#nav {
+  color: aliceblue;
+  text-align: right;
+  font-family: serif;
+  font-size: 20px;
+  flex: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline;
+}
+.nav-item:hover a{
+  color: #d08ee4;
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
