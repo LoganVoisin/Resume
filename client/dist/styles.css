@@ -2,12 +2,15 @@
   background-color: rgb(15, 15, 26);
 }
 
+* {
+  color: aliceblue;
+}
+
 #header {
   justify-content: right;
 }
 
 #nav {
-  color: aliceblue;
   text-align: right;
   font-family: serif;
   font-size: 20px;
@@ -39,7 +42,21 @@ ul {
   margin-right: 23%;
 }
 
+.section-seperator{
+  padding: 60px 0;
+  padding-top: 100px;
+}
+
 .row {
   display: flex;
   flex-direction: row;
+}
+
+.col-2 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.test-img{
+
 }
