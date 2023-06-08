@@ -1,5 +1,4 @@
 import React from 'react';
-// import test from './imgs/download.jpg';
 function Skills() {
     return (
         <section className='skills' id='skills'>

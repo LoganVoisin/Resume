@@ -93,7 +93,7 @@ a {
   margin-left: auto;
 }
 
-.section-separator{
+.section-separator {
   padding: 60px 0;
   padding-top: 100px;
 }
@@ -108,14 +108,19 @@ a {
   max-width: 50%;
 }
 
-#head-img{
+.col-3 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+#head-img {
   max-width: 75%;
   height: auto;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
 }
-#h2-name{
+.h2-large {
   font-size: 52.36px;
   margin-bottom: 0;
 }
@@ -136,7 +141,7 @@ a {
   padding-top: 100px;
 }
 
-.skills-text ul li{
+.skills-text ul li {
   margin: 0px 6px;
   border-radius: 4px;
   margin-bottom: 10px;
@@ -144,8 +149,32 @@ a {
   display: inline-block;
 }
 
-.skills-text ul li span{
+.skills-text ul li span {
   border: 1px solid #d08ee4;
   padding: 4px 10px;
   border-radius: 4px;
+}
+
+.experience-card {
+  box-shadow: -1rem 0 3rem #000;
+  background-color: #2d2938;
+  margin-bottom: 30px;
+  padding: 26px 30px;
+}
+
+.experience-education {
+  padding-right: 30px;
+}
+
+.experience-work {
+  padding-left: 30px;
+}
+
+.experience-card h4 {
+  font-size: 23px;
+  margin: 0;
+}
+
+.h2-med {
+  font-size: 32.36px;
 }
