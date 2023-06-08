@@ -10,8 +10,9 @@ function Nav() {
                             <ul>
                                 <li className='nav-item'> <a className='nav-link' href='#home'>Home</a> </li>
                                 <li className='nav-item'> <a className='nav-link' href='#skills'>Skills</a> </li>
-                                <li className='nav-item'> <a className='nav-link' href='#'>Portfolio</a> </li>
-                                <li className='nav-item'> <a className='nav-link' href='#'>Contact</a> </li>
+                                <li className='nav-item'> <a className='nav-link' href='#experience'>Experience</a> </li>
+                                <li className='nav-item'> <a className='nav-link' href='#portfolio'>Portfolio</a> </li>
+                                <li className='nav-item'> <a className='nav-link' href='#contact'>Contact</a> </li>
                             </ul>
                         </nav>
                 </div>

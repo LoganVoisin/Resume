@@ -6,17 +6,35 @@ function Skills() {
             <div className='container'>
                 <div className='row section-separator'>
                     <div className='col-2'>
-                        <div className='img-border'>
-                            <img id='head-img' src={require('./imgs/emily2.jpg').default} alt={'Test'}></img>
-                        </div>
+                        <img id='head-img' src={require('./imgs/emily2.jpg').default} alt={'Test'}></img>
                     </div>
                     <div className='col-2'>
-                        <div className='header-info'>
-                            <h2 id='h2-name'>Logan Voisin</h2>
-                            <h3>Web Developer</h3>
+                        <div className='skills-text'>
+                            <h2>Skills</h2>
                             <ul>
-                                <li><a href='mailto:'>loganvoisin1223@gmail.com</a></li>
-                                <li><a href='callto:'>+1 225-955-6052</a></li>
+                                <li><span>JavaScrypt</span></li>
+                                <li><span>TypeScrypt</span></li>
+                                <li><span>CSS</span></li>
+                                <li><span>HTML</span></li>
+                                <li><span>React</span></li>
+                                <li><span>Bootstrap</span></li>
+                                <li><span>Node</span></li>
+                                <li><span>Express</span></li>
+                                <li><span>PHP</span></li>
+                                <li><span>IIS</span></li>
+                                <li><span>SSMS</span></li>
+                                <li><span>WebSockets</span></li>
+                                <li><span>Socket.io</span></li>
+                                <li><span>MySQL</span></li>
+                                <li><span>Mongoose</span></li>
+                                <li><span>Material UI</span></li>
+                                <li><span>Styled Components</span></li>
+                                <li><span>SQL</span></li>
+                                <li><span>Prisma</span></li>
+                                <li><span>Git</span></li>
+                                <li><span>Github</span></li>
+                                <li><span>Agile</span></li>
+                                <li><span>SCRUM</span></li>
                             </ul>
                         </div>
                     </div>
