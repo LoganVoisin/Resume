@@ -178,3 +178,8 @@ a {
 .h2-med {
   font-size: 32.36px;
 }
+
+.portfolio-img {
+  width: 95%;
+  height: auto;
+}
