@@ -4,6 +4,7 @@ import Home from './Home';
 import Skills from './Skills';
 import Experience from './Experience';
 import Portfolio from './Protfolio';
+import Contact from './Contact';
 
 function App () {
     return (
@@ -13,6 +14,7 @@ function App () {
             <Skills />
             <Experience />
             <Portfolio />
+            <Contact />
         </div>
     );
 }

@@ -5,7 +5,7 @@ function Skills() {
             <div className='container'>
                 <div className='row section-separator'>
                     <div className='col-2'>
-                        <img id='head-img' src={require('./imgs/emily2.jpg').default} alt={'Test'}></img>
+                        <img id='head-img' src={require('./imgs/Logan2.jpg').default} alt={'Test'}></img>
                     </div>
                     <div className='col-2'>
                         <div className='skills-text'>

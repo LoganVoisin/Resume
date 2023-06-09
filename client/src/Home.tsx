@@ -16,7 +16,7 @@ function Home() {
                         </div>
                     </div>
                     <div className='col-2'>
-                        <img id='head-img' src={require('./imgs/emily.jpg').default} alt={'Test'}></img>
+                        <img id='head-img' src={require('./imgs/Logan.jpg').default} alt={'Test'}></img>
                     </div>
                 </div>
             </div>
